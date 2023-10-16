@@ -7,6 +7,8 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { Toaster } from "react-hot-toast";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter } from "react-router-dom";
+
+
 export const queryClient = new QueryClient();
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

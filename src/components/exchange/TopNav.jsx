@@ -8,7 +8,7 @@ const TopNav = () => {
   };
   return (
     <div className="shadow-sm rounded p-2 px-4 mt-3 d-flex justify-content-between align-items-center">
-      <h4>Vehicle</h4>
+      <h4>Exchange Rate</h4>
       <button type="button" onClick={logout} className="btn btn-dark">
         Logout
       </button>
